@@ -1,0 +1,9 @@
+2025-02-20 17:54:38,565 - INFO - SentenceTransformer embedding dimension: 768
+2025-02-20 17:54:38,565 - INFO - Models and data loaded successfully.
+2025-02-20 17:55:12,253 - INFO - FAISS search result: (array([[0.44568732, 0.44669712, 0.5190791 , 0.5372387 , 0.77987754]],
+      dtype=float32), array([[1290, 2540, 3548, 2539, 2018]], dtype=int64))
+2025-02-20 17:55:12,270 - INFO - User Query: titanic | Recommendations: ['Clerks (1994)', 'Forrest Gump (1994)', 'Mrs. Doubtfire (1993)', 'Forrest Gump (1994)', 'Pulp Fiction (1994)']
+2025-02-20 17:55:15,985 - INFO - HTTP Request: POST https://html.duckduckgo.com/html "HTTP/2 200 OK"
+2025-02-20 17:55:19,762 - INFO - HTTP Request: POST https://html.duckduckgo.com/html "HTTP/2 200 OK"
+2025-02-20 17:55:23,612 - INFO - HTTP Request: POST https://html.duckduckgo.com/html "HTTP/2 200 OK"
+2025-02-20 17:55:27,520 - INFO - HTTP Request: POST https://html.duckduckgo.com/html "HTTP/2 200 OK"
