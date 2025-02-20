@@ -1,0 +1,8 @@
+numpy==1.26.3
+pandas==2.1.4
+networkx==3.4.2
+faiss-cpu==1.10.0
+sentence-transformers== 3.4.1
+torch==2.6.0+cpu
+fastapi==0.115.8
+uvicorn==0.30.6

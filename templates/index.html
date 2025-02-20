@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Movie Recommendation System</h2>
+        <form action="/recommend" method="post">
+            <label for="query">Enter Movie Preferences:</label>
+            <input type="text" id="query" name="query" placeholder="Type a movie name...">
+            <button type="submit">Get Recommendations</button>
+        </form>
+        {% if recommendations %}
+        <h3>Recommended Movies:</h3>
+        <ul>
+            {% for movie in recommendations %}
+            <li>{{ movie }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Movie Recommendation System</h2>
+
+    <form method="post" action="/recommend">
+        <input type="text" name="query" placeholder="Enter a movie name" required>
+        <button type="submit">Get Recommendations</button>
+    </form>
+    {% if recommendations %}
+        <h3>Recommended Movies:</h3>
+        <ul>
+            {% for movie in recommendations %}
+                <li>
+                    <strong><a href="{{ movie.link }}" target="_blank">{{ movie.title }}</a></strong><br>
+                    <em>{{ movie.description }}</em>  <!-- Display movie description -->
+                </li>
+                <br>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+</body>
+</html>
+
+
