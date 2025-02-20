@@ -59,7 +59,7 @@ python app.py
 ```
 ## Application
 
-![interface](https://github.com/user-attachments/assets/7e607b39-7640-4c73-bf7c-59b8c83a9fca)
+![interface](https://github.com/user-attachments/assets/df4f4157-54f3-45ea-ad03-accaeae4c630)
 
-![output](https://github.com/user-attachments/assets/d30a908b-49c1-4950-a82a-039b04e3a39a)
-![output_](https://github.com/user-attachments/assets/55ed1182-e8c3-49bf-9639-bb36031b31d5)
+![output](https://github.com/user-attachments/assets/b9889d3f-0fe4-47d2-8587-5f37b8408cdc)
+![output_](https://github.com/user-attachments/assets/ef8928f4-d2e6-401f-8948-59e326689182)
